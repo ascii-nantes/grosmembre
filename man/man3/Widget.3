@@ -1,0 +1,75 @@
+.TH "Widget" 3 "Mercredi 15 Octobre 2014" "Version 0.1" "Grosmembre" \" -*- nroff -*-
+.ad l
+.nh
+.SH NAME
+Widget \- 
+.SH SYNOPSIS
+.br
+.PP
+.PP
+Est dérivée de QWidget\&.
+.SS "Connecteurs publics"
+
+.in +1c
+.ti -1c
+.RI "void \fBsetMail\fP (QString s)"
+.br
+.RI "\fI\fBWidget::setMail\fP remplit le champ m_mail (adresse mail) à partir du pattern 'prenom.nom@etu.univ-nantes.fr\&. \fP"
+.ti -1c
+.RI "void \fBflush\fP ()"
+.br
+.ti -1c
+.RI "void \fBaddMember\fP ()"
+.br
+.ti -1c
+.RI "void \fBlistMember\fP ()"
+.br
+.ti -1c
+.RI "void \fBupdatelistMember\fP ()"
+.br
+.in -1c
+.SS "Fonctions membres publiques"
+
+.in +1c
+.ti -1c
+.RI "\fBWidget\fP (QWidget *parent=0)"
+.br
+.RI "\fI\fBWidget::Widget\fP widget principal\&. \fP"
+.ti -1c
+.RI "bool \fBestDedans\fP (QString nom, QString prenom, QString numEtu)"
+.br
+.ti -1c
+.RI "\fB~Widget\fP ()"
+.br
+.RI "\fI\fBWidget::~Widget\fP un destructeur\&. \fP"
+.in -1c
+.SH "Documentation des constructeurs et destructeur"
+.PP 
+.SS "Widget::Widget (QWidget *parent = \fC0\fP)"
+
+.PP
+\fBWidget::Widget\fP widget principal\&. 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIparent\fP prend en paramètre le \fBWidget\fP parent de classe QWidget 
+.RE
+.PP
+s_list Liste des attributs renseignés lors de l’inscription d’un membre : 
+.SH "Documentation des fonctions membres"
+.PP 
+.SS "void Widget::setMail (QStrings)\fC [slot]\fP"
+
+.PP
+\fBWidget::setMail\fP remplit le champ m_mail (adresse mail) à partir du pattern 'prenom.nom@etu.univ-nantes.fr\&. 
+.PP
+\fBParamètres:\fP
+.RS 4
+\fIs\fP de type QString 
+.RE
+.PP
+
+
+.SH "Auteur"
+.PP 
+Généré automatiquement par Doxygen pour Grosmembre à partir du code source\&.
